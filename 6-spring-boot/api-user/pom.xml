@@ -149,6 +149,24 @@
             - Usada para validar a lógica da aplicação e verificar se o comportamento esperado é obtido durante a execução dos testes automatizados. -->
 		</dependency>
 
+			<dependency>
+				<groupId>javax.validation</groupId>
+				<artifactId>validation-api</artifactId>
+				<version>2.0.1.Final</version>
+			</dependency>
+		
+			<!-- Hibernate Validator (implementação do Bean Validation) -->
+			<dependency>
+				<groupId>org.hibernate.validator</groupId>
+				<artifactId>hibernate-validator</artifactId>
+			</dependency>
+		
+			<!-- Para suporte a validação em Spring Boot -->
+			<dependency>
+				<groupId>org.springframework.boot</groupId>
+				<artifactId>spring-boot-starter-validation</artifactId>
+			</dependency>
+	
 		<!-- Spring Security Test -->
 		<dependency>
 			<groupId>org.springframework.security</groupId>
